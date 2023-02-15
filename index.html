@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Project tracking intro component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background"></div>
+  <main class="homepage">
+    <nav class="navbar">
+      <div class="navbar-container">
+        <span class="logo-container">
+          <img src="./images/logo.svg" alt="logo">
+        </span>
+        <span class="logo-container toggle-btn">
+          <img src="./images/icon-hamburger.svg" alt="hamburger">
+        </span>
+        <ul class="desktop-nav hidden">
+          <div class="ls-wrapper">
+            <li>Product</li>
+            <li>Features</li>
+            <li>Pricing</li>
+            <li class="login">Login</li>
+          </div>
+        </ul>
+      </div>
+
+      <ul class="navbar-list mobile-nav hidden">
+        <div class="ls-wrapper">
+          <li>Product</li>
+          <li>Features</li>
+          <li>Pricing</li>
+        </div>
+        <hr>
+        <li id="login">Login</li>
+      </ul>
+    </nav>
+
+    <div class="desktop-flex">
+      <div class="homepage-img-container">
+        <img class="homepage-img" src="./images/illustration-devices.svg" alt="hero image">
+      </div>
+      <section class="hero">
+        <div class="hero-content">
+          <div class="hero-new-section">
+            <span class="tag">New</span>
+            <span class="name">Monograph Dashboard</span>
+          </div>
+          <h1 class="hero-title">Powerful insights into your team</h1>
+          <p class="hero-subtitle">Project planning and time tracking for agile teams</p>
+          <div class="hero-cta">
+            <button class="main-btn">Schedule a demo</button>
+            <button class="sec-btn">to see a preview</button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+
+
+  <script src="app.js"></script>
+
+</body>
+</html>
